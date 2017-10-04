@@ -1,12 +1,12 @@
 planet_list = ["Mercury", "Mars"]
 
-planet_list.push("Jupiter", "Saturn")
+planet_list << "Jupiter" << "Saturn"
 
 planet_list.insert(1, "Earth")
 
 planet_list.insert(1, "Venus")
 
-planet_list.push("Pluto")
+planet_list << "Pluto"
 
 rocky_planets = planet_list.slice(0, 4)
 
