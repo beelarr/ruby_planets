@@ -25,10 +25,10 @@ ship_travel = [
 
 planet_list.each do |planet|
   ship_travel.each do |ship|
-    if ship.include?(planet)
+    next unless ship.include?(planet)
       p "#{planet} has been visited by #{ship[0]}"
     end
   end
-end
+
 
 
